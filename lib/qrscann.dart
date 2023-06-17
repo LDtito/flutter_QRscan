@@ -15,7 +15,6 @@ class _QRScannState extends State<QRScann> {
         qrValue = cameraScanResult;
       });
   }
-}
 
   @override
   Widget build(BuildContext context) {
@@ -50,3 +49,4 @@ class _QRScannState extends State<QRScann> {
       ),//Scaffold
     );//MaterialApp
   }
+} 
